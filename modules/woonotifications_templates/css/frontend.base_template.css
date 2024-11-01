@@ -1,0 +1,23 @@
+.wnsNotificationPopup.wns_base_template {
+	padding:10px;
+	width:100%;
+	max-width:350px;
+	background:#2b323a;
+	border-radius:4px;
+	color:white;
+	margin:15px;
+}
+.wnsNotificationPopup.wns_base_template .wnsTemplateTitle {
+	margin-right:20px;
+	font-size:16px;
+	font-weight:bold;
+}
+.wnsNotificationPopup.wns_base_template .wnsTemplateCloseButton {
+	display:inline-block;
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+.wnsNotificationPopup.wns_base_template a {
+	color:white !important;
+}

@@ -1,0 +1,76 @@
+.wns-countdown-timestamp {
+	display:inline;
+	position:relative;
+}
+.wnsTemplateCloseButton {
+	display:inline-block;
+	width:auto;
+	position:absolute;
+	transition:.4s;
+	cursor:pointer;
+	font-size:14px;
+	line-height: 1.42857143;
+}
+.wnsNotificationPopup {
+	display:inline-block;
+	position:fixed;
+	z-index:99;
+	-webkit-backface-visibility: hidden !important;
+	perspective: 1px;
+}
+.wnsNotificationPopup_overlay {
+	position: fixed;
+	display: block;
+	z-index: 9999;
+	width: 100%;
+	height: 100vh;
+	left: 0px;
+	top: 0px;
+}
+.wnsNotificationPopup * {
+	-webkit-backface-visibility: hidden !important;
+}
+.wnsNotificationPopup.left_bottom {
+	left:0px;
+	bottom:0px;
+}
+.wnsNotificationPopup.center_bottom {
+	left:50%;
+	bottom:0%;
+	transform:translate(-50%,0%);
+}
+.wnsNotificationPopup.right_bottom {
+	right:0px;
+	bottom:0px;
+}
+.wnsNotificationPopup.left_middle {
+	left:0px;
+	top:50%;
+	transform:translate(0%,-50%);
+}
+.wnsNotificationPopup.center_middle {
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.wnsNotificationPopup.right_middle {
+	right:0px;
+	top:50%;
+	transform:translate(0%,-50%);
+}
+.wnsNotificationPopup.left_top {
+	left:0px;
+	top:0px;
+}
+.wnsNotificationPopup.center_top {
+	left:50%;
+	top:0px;
+	transform:translate(-50%,0%);
+}
+.wnsNotificationPopup.right_top {
+	right:0px;
+	top:0px;
+}
+.theme-storefront .wnsNotificationPopup {
+	z-index: 9999 !important;
+}
